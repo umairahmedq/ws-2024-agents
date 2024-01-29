@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/BAI_MKRL/pages"
+		},
+		{
+			"path": "../../../Downloads/BAI_MKRL/layoutlm-funsd"
+		},
+		{
+			"path": "../../../Downloads/BAI_MKRL/static"
+		},
+		{
+			"path": "../../../Downloads/BAI_MKRL/example_data"
+		},
+		{
+			"path": "../../../Downloads/BAI_MKRL/temp"
+		}
+	],
+	"settings": {}
+}
