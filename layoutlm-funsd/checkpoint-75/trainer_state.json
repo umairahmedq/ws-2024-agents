@@ -1,0 +1,57 @@
+{
+  "best_metric": 0.37414030261348,
+  "best_model_checkpoint": "layoutlm-funsd/checkpoint-75",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 75,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "learning_rate": 0.0,
+      "loss": 0.4321,
+      "step": 75
+    },
+    {
+      "epoch": 1.0,
+      "eval_ANSWER": {
+        "f1": 0.23798627002288328,
+        "number": 809,
+        "precision": 0.2215122470713525,
+        "recall": 0.25710754017305315
+      },
+      "eval_HEADER": {
+        "f1": 0.0,
+        "number": 119,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "eval_QUESTION": {
+        "f1": 0.487374749498998,
+        "number": 1065,
+        "precision": 0.4251748251748252,
+        "recall": 0.5708920187793427
+      },
+      "eval_loss": 0.4004136025905609,
+      "eval_overall_accuracy": 0.5828858276908709,
+      "eval_overall_f1": 0.37414030261348,
+      "eval_overall_precision": 0.344449134655973,
+      "eval_overall_recall": 0.40943301555444056,
+      "eval_runtime": 1.537,
+      "eval_samples_per_second": 32.531,
+      "eval_steps_per_second": 16.266,
+      "step": 75
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 75,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 39205307212800.0,
+  "train_batch_size": 2,
+  "trial_name": null,
+  "trial_params": null
+}
