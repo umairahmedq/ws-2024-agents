@@ -10,6 +10,7 @@ from langchain.agents.agent_types import AgentType
 st.set_page_config(page_title='🦜🔗 Ask the Data App')
 st.title('🦜🔗 Ask the Data App')
 
+
 # Load CSV file
 def load_csv(input_csv):
   df = pd.read_csv(input_csv)
